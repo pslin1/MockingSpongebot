@@ -15,9 +15,6 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='!')
 
-#Things to check:
-#if quoted text is string
-#If command is part of a reply
 @bot.command(name='mock')
 async def mock(ctx):
 
